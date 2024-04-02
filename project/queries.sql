@@ -1,7 +1,7 @@
 -- 1. Basic select with simple where clause
 SELECT * FROM `Order_item` WHERE `reordered` = 1;
 
--- 2. Basic select with simple group by clause (with and without having clause).
+-- 2. Basic select with simple group by clause (with and without having clause)
 SELECT `user_id`, COUNT(*) AS `order_count`
 FROM `Order`
 GROUP BY `user_id`;
