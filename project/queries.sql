@@ -1,4 +1,4 @@
--- 1. Basic select with simple where clause.
+-- 1. Basic select with simple where clause
 SELECT * FROM `Order_item` WHERE `reordered` = 1;
 
 -- 2. Basic select with simple group by clause (with and without having clause).
