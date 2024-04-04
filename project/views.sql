@@ -22,3 +22,5 @@ SELECT item_id, item_name, item_quantity
 FROM Item
 WHERE item_quantity < 10;
 
+
+
